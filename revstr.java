@@ -21,7 +21,8 @@ public class revstr {
         System.out.println("Enter the string");
         String s = sc.nextLine();
         String result = revstr(s);
-        
+        System.out.println("The reversed string is: "+result);
+
 
 
     }
