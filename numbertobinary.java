@@ -14,5 +14,6 @@ class numbertobinary{
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         System.out.println(getBinaryNo(N));
+        sc.close();
     }
 }
