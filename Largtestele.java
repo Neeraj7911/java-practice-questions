@@ -20,6 +20,7 @@ public class Largtestele {
             arr[i] = sc.nextInt();
         }
         System.out.println("Largest Element is: "+largest(arr));
+        sc.close();
 
 
 }
