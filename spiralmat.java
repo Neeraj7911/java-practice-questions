@@ -1,7 +1,7 @@
 import java.util.*;
 class spiralmat {
     // Function to return a list of integers denoting spiral traversal of matrix.
-    public ArrayList<Integer> spirallyTraverse(int mat[][]) {
+    public static ArrayList<Integer> spirallyTraverse(int mat[][]) {
         // code here
         ArrayList<Integer> result = new ArrayList<>();
         if(mat==null||mat.length==0){
@@ -32,5 +32,19 @@ class spiralmat {
             }
         }
         return result;
+    }
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter matrix dimensions");
+        int N = sc.nextInt();
+        int mat[][]= new int[N][N];
+        for(int i=0; i<N; i++){
+            for(int j=0; j<N; j++){
+                mat[i][j]=sc.nextInt();
+            }
+        }
+        ArrayList<Integer> result = spirallyTraverse(mat);
+        System.out.println(result);
+
     }
 }
