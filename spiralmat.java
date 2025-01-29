@@ -45,6 +45,7 @@ class spiralmat {
         }
         ArrayList<Integer> result = spirallyTraverse(mat);
         System.out.println(result);
+        sc.close();
 
     }
 }
