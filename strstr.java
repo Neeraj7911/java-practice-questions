@@ -9,4 +9,4 @@ class strstr {
         return haystack.indexOf(needle);
     }
 }
-//tesst
+//tesstsd
